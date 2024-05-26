@@ -24,8 +24,8 @@ public class Keywords {
 
 	}
 
-	public void getText(String path) {
-		driver.findElement(By.xpath(path)).getText();
+	public  String getText(String path) {
+		return driver.findElement(By.xpath(path)).getText();
 	}
 
 	public void quitBrowser() {

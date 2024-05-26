@@ -1,9 +1,13 @@
 package com.LoginPage;
 
-public class ChekingMobile {
-	public void verifyMobileNumberRequriedOrNot() {
-		// TODO Auto-generated method stub
+import org.testng.annotations.Test;
 
+import com.Keyword.Keywords;
+
+public class ChekingMobile {
+	@Test
+	public void verifyUserNameRequriedOrNot() {
+		
 	}
 
 }
